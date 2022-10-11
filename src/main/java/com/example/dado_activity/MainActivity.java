@@ -9,15 +9,17 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button botaoFinalizar, botaoAbrirOutraTela;
+    Button botaoAbrirOutraTela, botaoFinalizar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        botaoAbrirOutraTela = findViewById(R.id.btnAbrir);
-        botaoFinalizar = findViewById(R.id.btnFinalizar);
+        //Button botaoFinalizar, botaoAbrirOutraTela;
+
+        botaoAbrirOutraTela = (Button) findViewById(R.id.btnAbrir);
+        botaoFinalizar = (Button) findViewById(R.id.btnFinalizar);
 
         botaoFinalizar.setOnClickListener(new View.OnClickListener() {
             @Override
