@@ -73,13 +73,13 @@ public class MainActivity2 extends AppCompatActivity {
                     //decidindo o vencedor(calculo)
                     if(rolledP1 > rolledP2){
                         livesP2--;
-                        setDiceImage(livesP2, iv_dice_p2);
+                        setDiceImage(livesP2, iv_lives_p2);
 
                         Toast.makeText(MainActivity2.this,"Jogador_1 Venceu", Toast.LENGTH_SHORT).show();
                     }
                     if(rolledP2 > rolledP1){
                         livesP1--;
-                        setDiceImage(livesP1, iv_dice_p1);
+                        setDiceImage(livesP1, iv_lives_p1);
 
                         Toast.makeText(MainActivity2.this,"Jogador_2 Venceu", Toast.LENGTH_SHORT).show();
                     }
@@ -123,13 +123,13 @@ public class MainActivity2 extends AppCompatActivity {
                     //decidindo o vencedor(calculo)
                     if(rolledP1 > rolledP2){
                         livesP2--;
-                        setDiceImage(livesP2, iv_dice_p2);
+                        setDiceImage(livesP2, iv_lives_p2);
 
                         Toast.makeText(MainActivity2.this,"Jogador_1 Venceu", Toast.LENGTH_SHORT).show();
                     }
                     if(rolledP2 > rolledP1){
                         livesP1--;
-                        setDiceImage(livesP1, iv_dice_p1);
+                        setDiceImage(livesP1, iv_lives_p1);
 
                         Toast.makeText(MainActivity2.this,"Jogador_2 Venceu", Toast.LENGTH_SHORT).show();
                     }
